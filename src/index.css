@@ -31,3 +31,10 @@
   color: var(--color-font-secundary);
   font-size: 16px;
 }
+
+a, a:hover {
+
+  text-decoration: none;
+  color: unset;
+
+}
