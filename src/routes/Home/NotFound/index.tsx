@@ -1,9 +1,9 @@
 import './style.css';
 
-export default function HomeBody() {
+export default function NotFound() {
     return(
         <div className="rMt20 rContainer"> 
-        <h1>Bem-vindos!</h1>
+        <h1>Não encontrado!</h1>
         </div>
     );
 }

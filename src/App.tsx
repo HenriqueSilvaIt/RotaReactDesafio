@@ -6,6 +6,7 @@ import About from "./routes/Home/About"
 import Books from "./routes/Home/Products/books"
 import Computers from "./routes/Home/Products/computers"
 import Eletronics from "./routes/Home/Products/eletronics"
+import NotFound from "./routes/Home/NotFound"
 
 export default function App() {
 
@@ -24,7 +25,9 @@ export default function App() {
         </Route>
 
         <Route path="/about" element={<About/>}/>
+        <Route path="*" element={<NotFound/>}/>
       </Route>
+      
     </Routes>
       </BrowserRouter>
     </>
