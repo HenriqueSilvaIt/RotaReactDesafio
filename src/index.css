@@ -38,3 +38,7 @@ a, a:hover {
   color: unset;
 
 }
+
+.rActive {
+  font-weight: 700;
+}

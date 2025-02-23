@@ -4,11 +4,25 @@
     width: 960px;
     display: flex;
     align-items: center;
-    font-size: 16px;
-    color: var(--color-font-secundary);
     background-color: var(--color-bg-nav-products) ;
 }
 
 .rNav-product-container p{
     margin-left: 20px;
+    display: flex;
+    
+}
+
+.rMenuItem {
+    font-size: 16px;
+    color: var(--color-font-secundary);
+}
+
+.rMenuItemsProducts {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 20px;
+
+
 }
