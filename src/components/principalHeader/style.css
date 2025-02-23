@@ -1,0 +1,28 @@
+
+
+.rHeader{
+    height: 70px;
+    background-color: var(--color-bg-haeder);
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: var(--color-font-primary);   
+}
+
+.rPrincipal-menu{
+    display: flex;
+    margin-right: 20px;
+  
+}
+
+.rPrincipal-menu p {
+    margin-right: 20px;
+}
+
+.rPrincipalContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+

@@ -1,0 +1,14 @@
+
+.rNav-product-container{
+    height: 60px;
+    width: 960px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: var(--color-font-secundary);
+    background-color: var(--color-bg-nav-products) ;
+}
+
+.rNav-product-container p{
+    margin-left: 20px;
+}

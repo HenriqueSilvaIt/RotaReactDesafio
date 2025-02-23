@@ -1,0 +1,33 @@
+
+:root {
+
+  --color-bg-haeder: #2D28FF;
+  --color-bg-page: #fff;
+  --color-bg-nav-products: #C7C7C7;
+
+  --color-font-primary: #FFFFFF;
+  --color-font-secundary: #000000;
+
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.rContainer {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.rMt20 {
+  margin-top: 20px;
+}
+
+.rProducts-items{
+  color: var(--color-font-secundary);
+  font-size: 16px;
+}
